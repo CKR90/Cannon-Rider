@@ -1,0 +1,570 @@
+fileFormatVersion: 2
+guid: 3ce5a183c73f9b047a789a3262e7677e
+ModelImporter:
+  serializedVersion: 21300
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Eye.001
+    second: {fileID: 2100000, guid: e558c33c26947054093e2fd5a1ec6df5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Leaf
+    second: {fileID: 2100000, guid: 9f0e8ceca7fcbb84d9b9a3bd8ba64746, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lips Color
+    second: {fileID: 2100000, guid: 97fdad1e43d4eda40a24f6f01fac8440, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Orange Body
+    second: {fileID: 2100000, guid: 24505f64027cb9345bedf3103edcf4e5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Orange Inside
+    second: {fileID: 2100000, guid: 01aabc83e1dd2ca42a2497a47a7eab8c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Teeth
+    second: {fileID: 2100000, guid: f23d448d8e409344f802019567745202, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Orange
+    second: {fileID: 2800000, guid: a63be4af57c0666428c1b028ea804004, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: OrangeInside
+    second: {fileID: 2800000, guid: dd769bf48558d034db4a92c286d630cf, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: leaf
+    second: {fileID: 2800000, guid: 5ace8632c06c5ea4ca65662bae4b9f22, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Orange|Throw Back
+      takeName: Orange|Throw Back
+      internalID: -3319627492293048399
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Iskelet|Idle
+      takeName: Iskelet|Idle
+      internalID: 494200909899245296
+      firstFrame: 0
+      lastFrame: 597
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Iskelet|Jump
+      takeName: Iskelet|Jump
+      internalID: 2320707432705550714
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Iskelet|Run
+      takeName: Iskelet|Run
+      internalID: -3339727778444546972
+      firstFrame: 0
+      lastFrame: 23
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Iskelet|T-Pose
+      takeName: Iskelet|T-Pose
+      internalID: 2122239610151954396
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Iskelet|Throw Back
+      takeName: Iskelet|Throw Back
+      internalID: 2273295464551371471
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.4
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: Orange(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Hair
+      parentName: Orange(Clone)
+      position: {x: -0, y: 1.1135916, z: 0}
+      rotation: {x: -0.020746019, y: 0.703417, z: 0.70895106, w: 0.046503894}
+      scale: {x: 100, y: 99.99999, z: 99.99999}
+    - name: Orange
+      parentName: Orange(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Iskelet
+      parentName: Orange(Clone)
+      position: {x: -0, y: 0.46308157, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Govde
+      parentName: Iskelet
+      position: {x: -0.0000027412175, y: 2.9802322e-10, z: -0.0025670773}
+      rotation: {x: 0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: Sac
+      parentName: Govde
+      position: {x: -0, y: 0.007080926, z: 0}
+      rotation: {x: -1.935212e-10, y: 1.6852719e-19, z: -8.708462e-10, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: Sac_end
+      parentName: Sac
+      position: {x: -0, y: 0.0012672606, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Govde.L
+      parentName: Govde
+      position: {x: -0.0015173957, y: 0.0032643136, z: -0.00006245619}
+      rotation: {x: 0.99987197, y: -0.0000000019124242, z: -0.000000119194716, w: 0.016002286}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1.0000001}
+    - name: UstBacak.L
+      parentName: Govde.L
+      position: {x: 0.000034382356, y: 0.003737072, z: 0.000057161335}
+      rotation: {x: 0.047880813, y: 0.989742, z: -0.13318369, w: 0.019505093}
+      scale: {x: 1.0000092, y: 0.9999938, z: 0.9999967}
+    - name: AltBacak.L
+      parentName: UstBacak.L
+      position: {x: -5.7742002e-11, y: 0.0012972584, z: -3.3527615e-11}
+      rotation: {x: -0.37464637, y: -0.0000119421065, z: -0.000004453021, w: 0.92716783}
+      scale: {x: 1, y: 0.9999665, z: 1.0000337}
+    - name: Ayak.L
+      parentName: AltBacak.L
+      position: {x: -1.6205014e-10, y: 0.001705394, z: -2.0116568e-10}
+      rotation: {x: -0.16242798, y: 0.6444372, z: 0.7333609, w: -0.1431774}
+      scale: {x: 0.99999815, y: 0.9999924, z: 1.0000095}
+    - name: AyakParmak.L
+      parentName: Ayak.L
+      position: {x: 1.4528632e-10, y: 0.00077964383, z: 1.192093e-10}
+      rotation: {x: 0.031131273, y: 0.9052581, z: -0.18308517, w: 0.3821235}
+      scale: {x: 0.9999997, y: 0.9999996, z: 0.99999994}
+    - name: AyakParmak.L_end
+      parentName: AyakParmak.L
+      position: {x: -0, y: 0.00039889567, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: UstKol.L
+      parentName: Govde.L
+      position: {x: -0.0015213059, y: 0.0023297258, z: 0.0000121028115}
+      rotation: {x: 0.0023446633, y: 0.89273876, z: 0.08917479, w: 0.44165587}
+      scale: {x: 0.99996626, y: 0.999998, z: 1.0000354}
+    - name: AltKol.L
+      parentName: UstKol.L
+      position: {x: 2.2351742e-11, y: 0.001356774, z: -3.5762787e-10}
+      rotation: {x: 0.09144945, y: -0.19546011, z: -0.09184454, w: 0.9721095}
+      scale: {x: 1.0000002, y: 1, z: 1.0000002}
+    - name: El.L
+      parentName: AltKol.L
+      position: {x: -4.4703484e-11, y: 0.0015496145, z: -1.3411046e-10}
+      rotation: {x: 0.3259064, y: 0.0094961235, z: -0.56457514, w: 0.75825447}
+      scale: {x: 1, y: 1, z: 0.9999999}
+    - name: ParmakUst.L
+      parentName: El.L
+      position: {x: -7.450581e-11, y: 0.00046329427, z: -5.960465e-11}
+      rotation: {x: 0.023520917, y: -0.27884945, z: 0.043273598, w: 0.959071}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: ParmakOrta.L
+      parentName: ParmakUst.L
+      position: {x: 4.4703484e-11, y: 0.00025576286, z: 2.1606684e-10}
+      rotation: {x: 0.06765904, y: 0.07033973, z: 0.058657717, w: 0.99349576}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: ParmakAlt.L
+      parentName: ParmakOrta.L
+      position: {x: 1.9557775e-10, y: 0.00012802852, z: -1.192093e-10}
+      rotation: {x: -0.0131946, y: 0.0028222247, z: 0.026444605, w: 0.9995592}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: ParmakAlt.L_end
+      parentName: ParmakAlt.L
+      position: {x: -0, y: 0.00020256403, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BasParmakUst.L
+      parentName: El.L
+      position: {x: 0.00013193114, y: 0.00039590095, z: 0.00007919964}
+      rotation: {x: 0.06581004, y: -0.25024986, z: -0.36917496, w: 0.8926108}
+      scale: {x: 0.99999994, y: 1, z: 0.9999999}
+    - name: BasParmakOrta.L
+      parentName: BasParmakUst.L
+      position: {x: 5.960465e-11, y: 0.00015006395, z: -2.2351742e-11}
+      rotation: {x: 0.030080026, y: -0.00137886, z: -0.017365577, w: 0.9993957}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1}
+    - name: BasParmakAlt.L
+      parentName: BasParmakOrta.L
+      position: {x: 2.9802324e-11, y: 0.000139035, z: -3.7252905e-12}
+      rotation: {x: 0.12550645, y: 0.0018178939, z: 0.0014637226, w: 0.9920901}
+      scale: {x: 0.9999998, y: 1, z: 0.9999999}
+    - name: BasParmakAlt.L_end
+      parentName: BasParmakAlt.L
+      position: {x: -0, y: 0.000118591764, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Govde.R
+      parentName: Govde
+      position: {x: 0.0014925817, y: 0.0032491672, z: -0.00003651881}
+      rotation: {x: -0.000038183593, y: 8.998138e-10, z: 0.9999938, w: 0.0035174575}
+      scale: {x: 1, y: 0.9999998, z: 0.99999994}
+    - name: UstBacak.R
+      parentName: Govde.R
+      position: {x: -0.000016616916, y: 0.0037218158, z: 0.000036517824}
+      rotation: {x: 0.25815138, y: -0.088205375, z: 0.044024277, w: 0.96106166}
+      scale: {x: 1.0003272, y: 1.0000668, z: 0.9996112}
+    - name: AltBacak.R
+      parentName: UstBacak.R
+      position: {x: -4.4703484e-11, y: 0.0012972582, z: -7.450581e-11}
+      rotation: {x: -0.8439375, y: 0.00041135357, z: 0.0005140395, w: 0.53644115}
+      scale: {x: 1.0000056, y: 1.000383, z: 0.99961203}
+    - name: Ayak.R
+      parentName: AltBacak.R
+      position: {x: -1.4901162e-10, y: 0.0017053941, z: -7.450581e-12}
+      rotation: {x: 0.07546758, y: 0.8545196, z: 0.4524457, w: 0.24370842}
+      scale: {x: 1.0009974, y: 0.99952203, z: 0.9994927}
+    - name: AyakParmak.R
+      parentName: Ayak.R
+      position: {x: -5.960465e-11, y: 0.00077964435, z: -1.7881394e-10}
+      rotation: {x: -0.020124841, y: 0.9193453, z: 0.0416022, w: -0.3907281}
+      scale: {x: 0.9999998, y: 1, z: 0.9999997}
+    - name: AyakParmak.R_end
+      parentName: AyakParmak.R
+      position: {x: -0, y: 0.00039889567, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: UstKol.R
+      parentName: Govde.R
+      position: {x: -0.0015623606, y: 0.0023028392, z: 0.000036399557}
+      rotation: {x: -0.12524153, y: 0.32961005, z: 0.017164467, w: 0.93561596}
+      scale: {x: 1.0016762, y: 0.99726206, z: 1.0010834}
+    - name: AltKol.R
+      parentName: UstKol.R
+      position: {x: 1.4901162e-10, y: 0.001356774, z: 8.940697e-11}
+      rotation: {x: 0.16371773, y: -0.55775493, z: 0.006638222, w: 0.8136719}
+      scale: {x: 1, y: 1.0000002, z: 1.0000004}
+    - name: El.R
+      parentName: AltKol.R
+      position: {x: -1.6391279e-10, y: 0.001607299, z: 1.4901162e-10}
+      rotation: {x: 0.6493269, y: 0.4261507, z: 0.14642756, w: 0.6126411}
+      scale: {x: 0.9999999, y: 1.0000001, z: 1}
+    - name: ParmakUst.R
+      parentName: El.R
+      position: {x: -1.4901162e-10, y: 0.0005032531, z: 2.2351743e-10}
+      rotation: {x: 0.18453403, y: 0.24499463, z: -0.078405045, w: 0.948566}
+      scale: {x: 0.9999999, y: 0.9999998, z: 0.9999999}
+    - name: ParmakOrta.R
+      parentName: ParmakUst.R
+      position: {x: -1.8626453e-11, y: 0.00016244626, z: -1.4901162e-11}
+      rotation: {x: 0.08759375, y: 0.033979945, z: 0.06070901, w: 0.99372387}
+      scale: {x: 0.99999994, y: 1, z: 0.99999976}
+    - name: ParmakAlt.R
+      parentName: ParmakOrta.R
+      position: {x: 1.4901162e-11, y: 0.0001228669, z: -3.7252906e-11}
+      rotation: {x: 0.14330895, y: 0.02731831, z: 0.04715508, w: 0.98817647}
+      scale: {x: 1, y: 0.9999999, z: 0.9999998}
+    - name: ParmakAlt.R_end
+      parentName: ParmakAlt.R
+      position: {x: -0, y: 0.00017445679, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BasParmakUst.R
+      parentName: El.R
+      position: {x: -0.000120104065, y: 0.00031226332, z: 0.00003405029}
+      rotation: {x: 0.07958194, y: 0.2761068, z: 0.4005911, w: 0.8700337}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1}
+    - name: BasParmakOrta.R
+      parentName: BasParmakUst.R
+      position: {x: -2.384186e-10, y: 0.00016628171, z: -2.9802324e-11}
+      rotation: {x: 0.030840311, y: 0.0025987034, z: -0.031966664, w: 0.99900967}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BasParmakAlt.R
+      parentName: BasParmakOrta.R
+      position: {x: 5.960465e-11, y: 0.000115268354, z: -6.705523e-11}
+      rotation: {x: 0.066436, y: 0.010794034, z: 0.013276445, w: 0.997644}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: BasParmakAlt.R_end
+      parentName: BasParmakAlt.R
+      position: {x: -0, y: 0.00014536636, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FK.L
+      parentName: Iskelet
+      position: {x: -0.0014830133, y: -0.0017837145, z: -0.002640627}
+      rotation: {x: -0.17364827, y: 0.0000000075904065, z: 0.9848077, w: 0.000000043047315}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FK.L_end
+      parentName: FK.L
+      position: {x: -0, y: 0.0018916624, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: IK.L
+      parentName: Iskelet
+      position: {x: -0.0014830133, y: 0.0000000010661563, z: -0.0043439344}
+      rotation: {x: -4.9669188e-17, y: 0.9848077, z: 4.9669188e-17, w: -0.17364834}
+      scale: {x: 1, y: 1, z: 1}
+    - name: IK.L_end
+      parentName: IK.L
+      position: {x: -0, y: 0.0014551249, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FK.R
+      parentName: Iskelet
+      position: {x: 0.0014830133, y: -0.0017837145, z: -0.002640627}
+      rotation: {x: 0.17364827, y: -0.0000000075904065, z: 0.9848077, w: 0.000000043047315}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FK.R_end
+      parentName: FK.R
+      position: {x: -0, y: 0.0018916624, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: IK.R
+      parentName: Iskelet
+      position: {x: 0.0014830133, y: 0.0000000010661563, z: -0.0043439344}
+      rotation: {x: -7.093497e-17, y: 0.9848077, z: 7.093497e-17, w: 0.17364834}
+      scale: {x: 1, y: 1, z: 1}
+    - name: IK.R_end
+      parentName: IK.R
+      position: {x: -0, y: 0.0014551249, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 0.4
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

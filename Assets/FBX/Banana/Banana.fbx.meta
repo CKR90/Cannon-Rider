@@ -1,0 +1,750 @@
+fileFormatVersion: 2
+guid: c88b9453fdd2f3e4bab5521094bc32e7
+ModelImporter:
+  serializedVersion: 21300
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Banana Body
+    second: {fileID: 2100000, guid: adafb08727ff229438323f1e23c3e7d4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Banana Eye
+    second: {fileID: 2100000, guid: 84378b7566461c949b4209e513591afd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Banana Lips
+    second: {fileID: 2100000, guid: a54d6f72add330c4f9865fbf912ae852, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Banana Shoes Black
+    second: {fileID: 2100000, guid: 09eac525ffb7dc14aada3da33ffb5343, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Banana Shoes Blue
+    second: {fileID: 2100000, guid: 8efa2cd7037e69549b85ca5a68568cfe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Banana Shoes Orange
+    second: {fileID: 2100000, guid: d792200f13a791e4ca555eb8b6f8a5e2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TeethRed
+    second: {fileID: 2100000, guid: fc17908b00ef9834a8bdbe5d4259dd52, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TeethWhite
+    second: {fileID: 2100000, guid: fd128542d12f1784aac46af4341866d9, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Banana_Texture
+    second: {fileID: 2800000, guid: c8bd6a8f2407045429e343fb143fbd2b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: eye
+    second: {fileID: 2800000, guid: 65537d5da3719f64f8c8c1eb7dd07744, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Muz|Muz Run
+      takeName: Muz|Muz Run
+      internalID: -2083783463446479163
+      firstFrame: 0
+      lastFrame: 21
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Muz Iskelet|Muz Idle
+      takeName: Muz Iskelet|Muz Idle
+      internalID: -5714147987624979780
+      firstFrame: 0
+      lastFrame: 1198
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Muz Iskelet|Muz Jump
+      takeName: Muz Iskelet|Muz Jump
+      internalID: 4442097069467171513
+      firstFrame: 0
+      lastFrame: 26
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Muz Iskelet|Muz Run
+      takeName: Muz Iskelet|Muz Run
+      internalID: 918112435422799106
+      firstFrame: 0
+      lastFrame: 21
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Muz Iskelet|Muz T-Pose
+      takeName: Muz Iskelet|Muz T-Pose
+      internalID: -258811029048423658
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Muz Iskelet|Muz Throw Back
+      takeName: Muz Iskelet|Muz Throw Back
+      internalID: 5509930193297143205
+      firstFrame: 0
+      lastFrame: 46
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.3
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: Banana(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muz
+      parentName: Banana(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Muz Iskelet
+      parentName: Banana(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Hips
+      parentName: Muz Iskelet
+      position: {x: 7.8678335e-11, y: -0.0000000023545856, z: 0.00005005537}
+      rotation: {x: 0.7292878, y: -0.00000008182838, z: -0.000000088243496, w: 0.684207}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: Kalca.L
+      parentName: Hips
+      position: {x: 8.967218e-12, y: -0.000000201639, z: 0.000000012877652}
+      rotation: {x: 0.33408305, y: -0.12013662, z: 0.8567273, w: 0.37413102}
+      scale: {x: 1.0000006, y: 1.0000002, z: 1}
+    - name: Ust Bacak.L
+      parentName: Kalca.L
+      position: {x: -1.7881393e-12, y: 0.000011832052, z: 2.4586917e-12}
+      rotation: {x: 0.09572347, y: 0.4936058, z: 0.38039458, w: 0.77620256}
+      scale: {x: 0.9999998, y: 1, z: 1}
+    - name: Alt Bacak.L
+      parentName: Ust Bacak.L
+      position: {x: 7.858034e-14, y: 0.00002086794, z: 3.352761e-13}
+      rotation: {x: -0.02132423, y: -0.00000020861629, z: -0.0077614086, w: 0.9997425}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1.0000002}
+    - name: Ayak.L
+      parentName: Alt Bacak.L
+      position: {x: -4.6100466e-13, y: 0.000018508747, z: -2.7939677e-14}
+      rotation: {x: 0.32104313, y: -0.7828524, z: -0.50393695, w: 0.1735539}
+      scale: {x: 1.0000004, y: 1.0000005, z: 1.0000002}
+    - name: Ayak Parmak.L
+      parentName: Ayak.L
+      position: {x: -1.11758706e-13, y: 0.000004804087, z: 2.2351741e-13}
+      rotation: {x: -0.14034529, y: -0.3782422, z: -0.05813285, w: 0.9131576}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: Ayak Parmak.L_end
+      parentName: Ayak Parmak.L
+      position: {x: -0, y: 0.0000036482097, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Gobek
+      parentName: Hips
+      position: {x: -5.5879353e-14, y: 0.0000109586435, z: -1.1795781e-12}
+      rotation: {x: -0.06304983, y: 0.0000000021947246, z: 0.00000001782462, w: 0.9980104}
+      scale: {x: 0.9999999, y: 0.99999976, z: 0.99999976}
+    - name: Omuz.L
+      parentName: Gobek
+      position: {x: 7.5437123e-13, y: 0.000011194624, z: -7.473863e-13}
+      rotation: {x: -0.26500696, y: 0.20427035, z: 0.73380005, w: 0.59125495}
+      scale: {x: 1.0000001, y: 1.0000002, z: 0.9999998}
+    - name: Ust Kol.L
+      parentName: Omuz.L
+      position: {x: 6.2584877e-12, y: 0.000014071071, z: 8.9406965e-13}
+      rotation: {x: 0.054882646, y: -0.34477836, z: -0.0742922, w: 0.93412876}
+      scale: {x: 1.0000001, y: 1, z: 1.0000002}
+    - name: Alt Kol.L
+      parentName: Ust Kol.L
+      position: {x: 8.9406965e-13, y: 0.000016488186, z: 4.4703482e-13}
+      rotation: {x: 0.023226896, y: -0.02137038, z: -0.019516265, w: 0.99931127}
+      scale: {x: 0.9999995, y: 1.0000001, z: 0.99999946}
+    - name: Bilek.L
+      parentName: Alt Kol.L
+      position: {x: -2.6822088e-12, y: 0.000013353821, z: -1.7881393e-12}
+      rotation: {x: -0.04869634, y: 0.000058708712, z: 0.00034971698, w: 0.99881357}
+      scale: {x: 1.0000002, y: 0.99999976, z: 1.0000005}
+    - name: Isaret Parmak 1.L
+      parentName: Bilek.L
+      position: {x: 0.00000065689557, y: 0.0000022927413, z: 0.00000030970943}
+      rotation: {x: 0.04695686, y: -0.002645512, z: -0.022936765, w: 0.99863005}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000002}
+    - name: Isaret Parmak 2.L
+      parentName: Isaret Parmak 1.L
+      position: {x: 2.5704501e-12, y: 0.0000012657098, z: -2.6822088e-12}
+      rotation: {x: -0.015242638, y: 0.0042012134, z: 0.028035047, w: 0.9994819}
+      scale: {x: 1.0000002, y: 0.99999994, z: 1}
+    - name: Isaret Parmak 3.L
+      parentName: Isaret Parmak 2.L
+      position: {x: 3.352761e-13, y: 0.00000066702734, z: 2.2351741e-13}
+      rotation: {x: -0.02652325, y: -0.000505202, z: 0.0016654382, w: 0.9996468}
+      scale: {x: 1.0000001, y: 1.0000005, z: 1.0000002}
+    - name: Isaret Parmak 4.L
+      parentName: Isaret Parmak 3.L
+      position: {x: -6.2584877e-12, y: 0.0000006811474, z: -3.5762786e-12}
+      rotation: {x: -0.021987326, y: -0.000008187837, z: 0.015194873, w: 0.9996428}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000001}
+    - name: Isaret Parmak 4.L_end
+      parentName: Isaret Parmak 4.L
+      position: {x: -0, y: 0.00000071623924, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Orta Parmak 1.L
+      parentName: Bilek.L
+      position: {x: 0.00000016123956, y: 0.0000022382735, z: 0.00000025755833}
+      rotation: {x: 0.050699256, y: -0.0007696821, z: 0.0049737394, w: 0.9987014}
+      scale: {x: 1.0000005, y: 0.9999999, z: 1.0000001}
+    - name: Orta Parmak 2.L
+      parentName: Orta Parmak 1.L
+      position: {x: -2.6402994e-12, y: 0.0000014345237, z: -1.5646219e-12}
+      rotation: {x: -0.0049104164, y: 0.00086182286, z: -0.01773947, w: 0.99983025}
+      scale: {x: 0.99999976, y: 1.0000004, z: 1}
+    - name: Orta Parmak 3.L
+      parentName: Orta Parmak 2.L
+      position: {x: -4.9173833e-12, y: 0.00000061959116, z: -3.352761e-13}
+      rotation: {x: -0.029172668, y: 0.0006195547, z: 0.037051566, w: 0.9988873}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000006}
+    - name: Orta Parmak 4.L
+      parentName: Orta Parmak 3.L
+      position: {x: -2.0116567e-12, y: 0.00000066020385, z: 1.7881393e-12}
+      rotation: {x: -0.020985909, y: -0.00016758037, z: -0.011879014, w: 0.9997092}
+      scale: {x: 1.0000005, y: 1.0000002, z: 1.0000006}
+    - name: Orta Parmak 4.L_end
+      parentName: Orta Parmak 4.L
+      position: {x: -0, y: 0.0000008467004, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Yuzuk Parmak 1.L
+      parentName: Bilek.L
+      position: {x: -0.00000035033102, y: 0.000002258782, z: 0.00000023984816}
+      rotation: {x: 0.049567677, y: 0.0004195132, z: 0.02255186, w: 0.998516}
+      scale: {x: 1.0000008, y: 1.0000004, z: 1.0000006}
+    - name: Yuzuk Parmak 2.L
+      parentName: Yuzuk Parmak 1.L
+      position: {x: 1.2852251e-12, y: 0.0000014694252, z: 4.4703482e-13}
+      rotation: {x: -0.006438379, y: -0.00033245469, z: -0.019636875, w: 0.99978644}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1.0000005}
+    - name: Yuzuk Parmak 3.L
+      parentName: Yuzuk Parmak 2.L
+      position: {x: -8.9406965e-13, y: 0.0000006608565, z: 4.470348e-12}
+      rotation: {x: -0.025537727, y: -0.00052831555, z: 0.005562866, w: 0.9996582}
+      scale: {x: 1.0000001, y: 1.0000002, z: 0.99999976}
+    - name: Yuzuk Parmak 4.L
+      parentName: Yuzuk Parmak 3.L
+      position: {x: -0, y: 0.0000006159997, z: -5.5879353e-14}
+      rotation: {x: -0.023939116, y: -0.00006231456, z: -0.016925411, w: 0.99957013}
+      scale: {x: 1.0000002, y: 0.9999998, z: 0.99999994}
+    - name: Yuzuk Parmak 4.L_end
+      parentName: Yuzuk Parmak 4.L
+      position: {x: -0, y: 0.0000006724919, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ince Parmak 1.L
+      parentName: Bilek.L
+      position: {x: -0.00000087628706, y: 0.0000023585383, z: 0.0000002616156}
+      rotation: {x: 0.051022626, y: 0.0007375054, z: 0.020347796, w: 0.99849}
+      scale: {x: 1.0000006, y: 1, z: 1.0000004}
+    - name: Ince Parmak 2.L
+      parentName: Ince Parmak 1.L
+      position: {x: -2.1792947e-12, y: 0.000001424421, z: 1.4528631e-12}
+      rotation: {x: -0.0060023484, y: -0.001035934, z: -0.01548518, w: 0.9998616}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: Ince Parmak 3.L
+      parentName: Ince Parmak 2.L
+      position: {x: -1.117587e-12, y: 0.000000630679, z: -1.8998982e-12}
+      rotation: {x: -0.025098458, y: -0.001169124, z: -0.015444471, w: 0.99956506}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1.0000001}
+    - name: Ince Parmak 4.L
+      parentName: Ince Parmak 3.L
+      position: {x: -2.0116567e-12, y: 0.00000052903476, z: 2.1792947e-12}
+      rotation: {x: -0.027115587, y: 0.000106233965, z: 0.027887508, w: 0.99924326}
+      scale: {x: 1.0000001, y: 1.0000006, z: 1.0000005}
+    - name: Ince Parmak 4.L_end
+      parentName: Ince Parmak 4.L
+      position: {x: -0, y: 0.00000061841, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bas Parmak 1.L
+      parentName: Bilek.L
+      position: {x: 0.000000591415, y: 0.0000015485821, z: 0.000000018715225}
+      rotation: {x: 0.11040724, y: -0.047143582, z: -0.6032765, w: 0.78844476}
+      scale: {x: 1.0000002, y: 1.0000005, z: 1.0000004}
+    - name: Bas Parmak 2.L
+      parentName: Bas Parmak 1.L
+      position: {x: -2.9057262e-12, y: 0.0000008450532, z: -4.4703482e-13}
+      rotation: {x: -0.010231301, y: -0.026557323, z: -0.052163348, w: 0.998233}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000006}
+    - name: Bas Parmak 3.L
+      parentName: Bas Parmak 2.L
+      position: {x: -2.2351741e-13, y: 0.00000073746435, z: -2.0116567e-12}
+      rotation: {x: 0.0028647187, y: -0.022240344, z: -0.040392965, w: 0.99893224}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1}
+    - name: Bas Parmak 3.L_end
+      parentName: Bas Parmak 3.L
+      position: {x: -0, y: 0.0000010601018, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Boyun
+      parentName: Gobek
+      position: {x: 7.5437123e-13, y: 0.000011194624, z: -7.473863e-13}
+      rotation: {x: 0.031204257, y: -0.0000000047387347, z: -0.000000011431171, w: 0.99951303}
+      scale: {x: 1.0000001, y: 0.99999976, z: 0.9999999}
+    - name: Kafa
+      parentName: Boyun
+      position: {x: -3.6321578e-13, y: 0.000017457516, z: 1.9487925e-12}
+      rotation: {x: -0.007499364, y: 0.000000005139369, z: -0.0000000061461964, w: 0.99997187}
+      scale: {x: 0.9999999, y: 1, z: 1.0000002}
+    - name: Sap
+      parentName: Kafa
+      position: {x: -3.9115548e-13, y: 0.00002793516, z: 5.3783874e-12}
+      rotation: {x: -0.33830905, y: -0.0000000016073441, z: 0.00000008685974, w: 0.9410351}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: Sap_end
+      parentName: Sap
+      position: {x: -0, y: 0.000035765264, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goz
+      parentName: Boyun
+      position: {x: -3.6321578e-13, y: 0.000017457516, z: 1.9487925e-12}
+      rotation: {x: 0.4960532, y: 0.000000008675251, z: -0.00000011682409, w: 0.86829215}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: Goz_end
+      parentName: Goz
+      position: {x: -0, y: 0.000015086566, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Omuz.R
+      parentName: Gobek
+      position: {x: 7.5437123e-13, y: 0.000011194624, z: -7.473863e-13}
+      rotation: {x: -0.26500717, y: -0.20427021, z: -0.7338, w: 0.591255}
+      scale: {x: 1.0000001, y: 1.0000001, z: 0.99999994}
+    - name: Ust Kol.R
+      parentName: Omuz.R
+      position: {x: 9.723008e-12, y: 0.000014071073, z: 1.5646219e-12}
+      rotation: {x: 0.054882765, y: 0.34477836, z: 0.07429232, w: 0.9341287}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1}
+    - name: Alt Kol.R
+      parentName: Ust Kol.R
+      position: {x: 1.3411044e-12, y: 0.000016488179, z: -5.2526594e-12}
+      rotation: {x: 0.009415645, y: 0.021098854, z: 0.01980964, w: 0.9995368}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1.0000002}
+    - name: Bilek.R
+      parentName: Alt Kol.R
+      position: {x: 4.0233134e-12, y: 0.000013353823, z: 8.9406965e-13}
+      rotation: {x: -0.048696294, y: -0.00005878322, z: -0.00034977173, w: 0.9988136}
+      scale: {x: 0.99999976, y: 0.99999964, z: 1}
+    - name: Isaret Parmak 1.R
+      parentName: Bilek.R
+      position: {x: -0.00000065434335, y: 0.0000023923144, z: 0.0000002521498}
+      rotation: {x: 0.057948194, y: 0.0025543864, z: 0.030202368, w: 0.99785936}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1.0000004}
+    - name: Isaret Parmak 2.R
+      parentName: Isaret Parmak 1.R
+      position: {x: 4.121102e-13, y: 0.0000012657063, z: 8.9406965e-13}
+      rotation: {x: -0.015242614, y: -0.004201152, z: -0.028034948, w: 0.9994819}
+      scale: {x: 1.0000002, y: 1, z: 1.0000002}
+    - name: Isaret Parmak 3.R
+      parentName: Isaret Parmak 2.R
+      position: {x: 4.051253e-12, y: 0.0000006670306, z: 4.4703482e-13}
+      rotation: {x: -0.026523214, y: 0.000505133, z: -0.0016655053, w: 0.9996467}
+      scale: {x: 1, y: 1.0000004, z: 1.0000004}
+    - name: Isaret Parmak 4.R
+      parentName: Isaret Parmak 3.R
+      position: {x: 5.1409003e-12, y: 0.0000006811483, z: -4.4703482e-13}
+      rotation: {x: -0.021987366, y: 0.000008213914, z: -0.015194755, w: 0.9996428}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000005}
+    - name: Isaret Parmak 4.R_end
+      parentName: Isaret Parmak 4.R
+      position: {x: -0, y: 0.00000071623924, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Orta Parmak 1.R
+      parentName: Bilek.R
+      position: {x: -0.00000016857813, y: 0.0000022682564, z: 0.00000025245927}
+      rotation: {x: 0.050699256, y: 0.0007697197, z: -0.004973543, w: 0.99870133}
+      scale: {x: 1.0000004, y: 1.0000005, z: 1.0000002}
+    - name: Orta Parmak 2.R
+      parentName: Orta Parmak 1.R
+      position: {x: 2.0395964e-12, y: 0.000001434524, z: 0}
+      rotation: {x: -0.004910435, y: -0.000861827, z: 0.017739424, w: 0.9998302}
+      scale: {x: 0.9999999, y: 1, z: 1.0000001}
+    - name: Orta Parmak 3.R
+      parentName: Orta Parmak 2.R
+      position: {x: -6.2584877e-12, y: 0.0000006195891, z: 0}
+      rotation: {x: -0.025525909, y: -0.0006198137, z: -0.032421596, w: 0.9991481}
+      scale: {x: 1.0000002, y: 1, z: 1.0000008}
+    - name: Orta Parmak 4.R
+      parentName: Orta Parmak 3.R
+      position: {x: 2.0116567e-12, y: 0.00000066020596, z: -3.5762786e-12}
+      rotation: {x: -0.020985829, y: 0.00016763627, z: 0.0118789775, w: 0.9997092}
+      scale: {x: 1.0000005, y: 1.0000005, z: 0.9999994}
+    - name: Orta Parmak 4.R_end
+      parentName: Orta Parmak 4.R
+      position: {x: -0, y: 0.0000008467004, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Yuzuk Parmak 1.R
+      parentName: Bilek.R
+      position: {x: 0.00000034119017, y: 0.0000022220263, z: 0.0000002734705}
+      rotation: {x: 0.049567617, y: -0.00041953273, z: -0.022551628, w: 0.9985161}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1.0000005}
+    - name: Yuzuk Parmak 2.R
+      parentName: Yuzuk Parmak 1.R
+      position: {x: -3.6321578e-13, y: 0.0000014694219, z: -1.0058283e-12}
+      rotation: {x: -0.006438399, y: 0.0003325337, z: 0.019636758, w: 0.9997864}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1}
+    - name: Yuzuk Parmak 3.R
+      parentName: Yuzuk Parmak 2.R
+      position: {x: 4.142057e-12, y: 0.0000006608569, z: -1.3411044e-12}
+      rotation: {x: -0.025537571, y: 0.00052834273, z: -0.0055629835, w: 0.9996582}
+      scale: {x: 1, y: 0.99999934, z: 0.9999998}
+    - name: Yuzuk Parmak 4.R
+      parentName: Yuzuk Parmak 3.R
+      position: {x: -3.4086408e-12, y: 0.0000006160021, z: 2.2351741e-13}
+      rotation: {x: -0.023939256, y: 0.00006212736, z: 0.01692554, w: 0.9995702}
+      scale: {x: 1.0000002, y: 1.0000002, z: 0.9999998}
+    - name: Yuzuk Parmak 4.R_end
+      parentName: Yuzuk Parmak 4.R
+      position: {x: -0, y: 0.0000006724919, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ince Parmak 1.R
+      parentName: Bilek.R
+      position: {x: 0.00000087373223, y: 0.0000022589654, z: 0.00000031917293}
+      rotation: {x: 0.051022552, y: -0.00073746295, z: -0.020347714, w: 0.99849}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1.0000004}
+    - name: Ince Parmak 2.R
+      parentName: Ince Parmak 1.R
+      position: {x: 3.9115547e-12, y: 0.0000014244131, z: -4.4703482e-13}
+      rotation: {x: 0.32240084, y: 0.0061550685, z: 0.029664522, w: 0.94611835}
+      scale: {x: 1.0000002, y: 0.9999999, z: 1.0000004}
+    - name: Ince Parmak 3.R
+      parentName: Ince Parmak 2.R
+      position: {x: 4.9173833e-12, y: 0.0000006306821, z: 2.235174e-12}
+      rotation: {x: -0.025098467, y: 0.0011692077, z: 0.01544436, w: 0.999565}
+      scale: {x: 0.9999998, y: 0.99999994, z: 1}
+    - name: Ince Parmak 4.R
+      parentName: Ince Parmak 3.R
+      position: {x: 2.6822088e-12, y: 0.0000005290366, z: -6.705522e-13}
+      rotation: {x: -0.027115425, y: -0.00010636168, z: -0.027887357, w: 0.9992433}
+      scale: {x: 1.0000001, y: 1.0000004, z: 0.9999995}
+    - name: Ince Parmak 4.R_end
+      parentName: Ince Parmak 4.R
+      position: {x: -0, y: 0.00000061841, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bas Parmak 1.R
+      parentName: Bilek.R
+      position: {x: -0.00000059141706, y: 0.0000015485828, z: 0.000000018713632}
+      rotation: {x: 0.057793215, y: 0.09210475, z: 0.08108955, w: 0.99075794}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000005}
+    - name: Bas Parmak 2.R
+      parentName: Bas Parmak 1.R
+      position: {x: -5.587935e-13, y: 0.00000084505285, z: -2.235174e-12}
+      rotation: {x: -0.007884193, y: 0.026572572, z: 0.04019736, w: 0.9988073}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1.0000007}
+    - name: Bas Parmak 3.R
+      parentName: Bas Parmak 2.R
+      position: {x: 3.5203992e-12, y: 0.0000007374635, z: 2.6822088e-12}
+      rotation: {x: 0.0028646488, y: 0.022240372, z: 0.040393084, w: 0.99893224}
+      scale: {x: 1.0000002, y: 1.0000001, z: 0.99999994}
+    - name: Bas Parmak 3.R_end
+      parentName: Bas Parmak 3.R
+      position: {x: -0, y: 0.0000010601018, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Agiz
+      parentName: Gobek
+      position: {x: 7.5437123e-13, y: 0.000011194624, z: -7.473863e-13}
+      rotation: {x: 0.60725224, y: -0.00000019173535, z: -0.0000002901737, w: 0.7945092}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1.0000001}
+    - name: Agiz_end
+      parentName: Agiz
+      position: {x: -0, y: 0.0000135886485, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kalca.R
+      parentName: Hips
+      position: {x: 2.5291956e-12, y: -0.00000020164816, z: 0.0000000128759865}
+      rotation: {x: -0.3415464, y: -0.12339691, z: 0.8537794, w: -0.37306854}
+      scale: {x: 1.0000006, y: 0.99999994, z: 1}
+    - name: Ust Bacak.R
+      parentName: Kalca.R
+      position: {x: 4.4703482e-13, y: 0.000011832049, z: 2.2351741e-13}
+      rotation: {x: 0.0990393, y: -0.5003606, z: -0.37954482, w: 0.7718655}
+      scale: {x: 0.9999996, y: 0.9999995, z: 0.99999964}
+    - name: Alt Bacak.R
+      parentName: Ust Bacak.R
+      position: {x: 5.0291417e-13, y: 0.000020867938, z: -5.0291417e-13}
+      rotation: {x: -0.021324338, y: 0.0000002682209, z: 0.0077614216, w: 0.99974257}
+      scale: {x: 1.0000005, y: 1.0000004, z: 1.0000002}
+    - name: Ayak.R
+      parentName: Alt Bacak.R
+      position: {x: 6.146729e-13, y: 0.00001850875, z: 3.7997964e-12}
+      rotation: {x: -0.32104304, y: -0.7828525, z: -0.503937, w: -0.17355396}
+      scale: {x: 0.9999999, y: 0.99999964, z: 0.9999989}
+    - name: Ayak Parmak.R
+      parentName: Ayak.R
+      position: {x: 1.8440186e-12, y: 0.0000048040883, z: -6.705522e-13}
+      rotation: {x: -0.14034522, y: 0.378242, z: 0.05813296, w: 0.91315764}
+      scale: {x: 0.99999976, y: 1.0000005, z: 1.0000008}
+    - name: Ayak Parmak.R_end
+      parentName: Ayak Parmak.R
+      position: {x: -0, y: 0.0000036482097, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kuyruk 1
+      parentName: Hips
+      position: {x: -3.1930083e-14, y: -2.6077053e-12, z: 2.2427394e-12}
+      rotation: {x: 0.95166314, y: -0.00000007234388, z: -0.0000000019506103, w: -0.30714375}
+      scale: {x: 1, y: 0.99999994, z: 1.0000001}
+    - name: Kuyruk 2
+      parentName: Kuyruk 1
+      position: {x: -6.286427e-14, y: 0.000020340813, z: 5.1889218e-12}
+      rotation: {x: 0.06182901, y: 0.0000000012626292, z: 0.0000000152316, w: 0.9980868}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000002}
+    - name: Kuyruk 2_end
+      parentName: Kuyruk 2
+      position: {x: -0, y: 0.00002486196, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 0.003
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

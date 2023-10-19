@@ -1,0 +1,625 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6194646608322421390
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6194646608322421391}
+  m_Layer: 0
+  m_Name: GPU Instancers
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6194646608322421391
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6194646608322421390}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6194646610250260695}
+  - {fileID: 6194646608484841291}
+  - {fileID: 6194646609501403225}
+  - {fileID: 6194646609591876371}
+  - {fileID: 6194646609678058982}
+  - {fileID: 6194646610129722848}
+  - {fileID: 6194646608845515747}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6194646608484841290
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6194646608484841291}
+  - component: {fileID: 6194646608484841292}
+  m_Layer: 0
+  m_Name: GPU_Instance_Road Line
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &6194646608484841291
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6194646608484841290}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6194646608322421391}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6194646608484841292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6194646608484841290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5dd7aae532a686a4daa2bda226a7217a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: GPU Road Line
+  Count: 70
+  xPosition: 0
+  distanceOffset: 4
+  createCollider: 0
+  ColliderLength: 18
+  ObjectMesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+  ObjectScale: {x: 0.1, y: 0.0005, z: 4}
+  ObjectMaterial: {fileID: 2100000, guid: 413bf8f7a1586c34c986b68304dd5952, type: 2}
+  Vehicle: {fileID: 0}
+--- !u!1 &6194646608845515746
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6194646608845515747}
+  - component: {fileID: 6194646608845515748}
+  m_Layer: 0
+  m_Name: GPU_Instance_Foliage
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &6194646608845515747
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6194646608845515746}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6194646608322421391}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6194646608845515748
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6194646608845515746}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 471f65a7fff9e444191effb73e61aebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Vehicle: {fileID: 0}
+  FoliageTypes:
+  - listName: Cactus 01
+    FoliageName: 0
+    mesh: {fileID: 4300000, guid: ec6716cccdfa5ef44b7c08e702ed6df1, type: 3}
+    material: {fileID: 2100000, guid: 8093a22d87ca55242b463c5692dd3b83, type: 2}
+    YOffset: 0
+    SpawnStartZ: 0
+    scale: {x: 1, y: 1, z: 1}
+    Count: 20
+    sideLimitMin: 10
+    sideLimitMax: 50
+    distOfMeshes: 30
+  - listName: Cactus 02
+    FoliageName: 0
+    mesh: {fileID: 4300020, guid: 47aa2d69a1aafc64cad913e0aaf80735, type: 3}
+    material: {fileID: 2100000, guid: 8093a22d87ca55242b463c5692dd3b83, type: 2}
+    YOffset: 0
+    SpawnStartZ: 2
+    scale: {x: 1, y: 1, z: 1}
+    Count: 20
+    sideLimitMin: 10
+    sideLimitMax: 50
+    distOfMeshes: 30
+  - listName: Cactus 03
+    FoliageName: 0
+    mesh: {fileID: 4300004, guid: c746a95794cd80d43aa4fcc5c82d56ff, type: 3}
+    material: {fileID: 2100000, guid: 8093a22d87ca55242b463c5692dd3b83, type: 2}
+    YOffset: 0
+    SpawnStartZ: 4
+    scale: {x: 1, y: 1, z: 1}
+    Count: 20
+    sideLimitMin: 10
+    sideLimitMax: 50
+    distOfMeshes: 30
+  - listName: Cactus 04
+    FoliageName: 0
+    mesh: {fileID: 4300000, guid: 6073269b32af919479c20885480b14fa, type: 3}
+    material: {fileID: 2100000, guid: 8093a22d87ca55242b463c5692dd3b83, type: 2}
+    YOffset: 0
+    SpawnStartZ: 6
+    scale: {x: 1, y: 1, z: 1}
+    Count: 20
+    sideLimitMin: 10
+    sideLimitMax: 50
+    distOfMeshes: 30
+  - listName: Cactus 05
+    FoliageName: 0
+    mesh: {fileID: 4300000, guid: 488a3ec7c3742d741a86b93690985912, type: 3}
+    material: {fileID: 2100000, guid: 8093a22d87ca55242b463c5692dd3b83, type: 2}
+    YOffset: 0
+    SpawnStartZ: 8
+    scale: {x: 1, y: 1, z: 1}
+    Count: 20
+    sideLimitMin: 10
+    sideLimitMax: 50
+    distOfMeshes: 30
+  - listName: Cactus 06
+    FoliageName: 0
+    mesh: {fileID: 4300002, guid: ba2ad16784e1bf345bd347541176af0e, type: 3}
+    material: {fileID: 2100000, guid: 8093a22d87ca55242b463c5692dd3b83, type: 2}
+    YOffset: 0
+    SpawnStartZ: 10
+    scale: {x: 1, y: 1, z: 1}
+    Count: 20
+    sideLimitMin: 10
+    sideLimitMax: 50
+    distOfMeshes: 30
+  - listName: Cactus 07
+    FoliageName: 0
+    mesh: {fileID: 4300002, guid: c1d006dbe60be9f498112dffd368e58d, type: 3}
+    material: {fileID: 2100000, guid: 8093a22d87ca55242b463c5692dd3b83, type: 2}
+    YOffset: 0
+    SpawnStartZ: 12
+    scale: {x: 1, y: 1, z: 1}
+    Count: 20
+    sideLimitMin: 10
+    sideLimitMax: 50
+    distOfMeshes: 30
+  - listName: Cactus 08
+    FoliageName: 0
+    mesh: {fileID: 4300000, guid: 42c6802f5720aa945948122911a29ce7, type: 3}
+    material: {fileID: 2100000, guid: 8093a22d87ca55242b463c5692dd3b83, type: 2}
+    YOffset: 0
+    SpawnStartZ: 14
+    scale: {x: 1, y: 1, z: 1}
+    Count: 20
+    sideLimitMin: 10
+    sideLimitMax: 50
+    distOfMeshes: 30
+  - listName: Cactus 09
+    FoliageName: 0
+    mesh: {fileID: 4300002, guid: dee1f2cda9492694e9124ff28f53c5f3, type: 3}
+    material: {fileID: 2100000, guid: 8093a22d87ca55242b463c5692dd3b83, type: 2}
+    YOffset: 0
+    SpawnStartZ: 16
+    scale: {x: 1, y: 1, z: 1}
+    Count: 20
+    sideLimitMin: 10
+    sideLimitMax: 50
+    distOfMeshes: 30
+  - listName: Cactus 10
+    FoliageName: 0
+    mesh: {fileID: 4300002, guid: 5f4cf482032eaf149afeede8e4d5f7a5, type: 3}
+    material: {fileID: 2100000, guid: 8093a22d87ca55242b463c5692dd3b83, type: 2}
+    YOffset: 0
+    SpawnStartZ: 18
+    scale: {x: 1, y: 1, z: 1}
+    Count: 20
+    sideLimitMin: 10
+    sideLimitMax: 50
+    distOfMeshes: 30
+  - listName: Cactus 11
+    FoliageName: 0
+    mesh: {fileID: 4300002, guid: 83969742e794b1e46a69d66f573bf098, type: 3}
+    material: {fileID: 2100000, guid: 8093a22d87ca55242b463c5692dd3b83, type: 2}
+    YOffset: 0
+    SpawnStartZ: 20
+    scale: {x: 1, y: 1, z: 1}
+    Count: 20
+    sideLimitMin: 10
+    sideLimitMax: 50
+    distOfMeshes: 30
+  - listName: Cactus 12
+    FoliageName: 0
+    mesh: {fileID: 4300000, guid: 2ce2911191d61a24ea50d6847b4a5c9c, type: 3}
+    material: {fileID: 2100000, guid: 8093a22d87ca55242b463c5692dd3b83, type: 2}
+    YOffset: 0
+    SpawnStartZ: 20
+    scale: {x: 1, y: 1, z: 1}
+    Count: 20
+    sideLimitMin: 10
+    sideLimitMax: 50
+    distOfMeshes: 30
+  - listName: Cactus 13
+    FoliageName: 0
+    mesh: {fileID: 4300000, guid: 05d8dde5b000ac24180fe37b83d41c05, type: 3}
+    material: {fileID: 2100000, guid: 8093a22d87ca55242b463c5692dd3b83, type: 2}
+    YOffset: 0
+    SpawnStartZ: 22
+    scale: {x: 1, y: 1, z: 1}
+    Count: 20
+    sideLimitMin: 10
+    sideLimitMax: 50
+    distOfMeshes: 30
+  - listName: Cactus 14
+    FoliageName: 0
+    mesh: {fileID: 4300000, guid: 1a4b7e855ec2aee48abb604abd385373, type: 3}
+    material: {fileID: 2100000, guid: 8093a22d87ca55242b463c5692dd3b83, type: 2}
+    YOffset: 0
+    SpawnStartZ: 24
+    scale: {x: 1, y: 1, z: 1}
+    Count: 20
+    sideLimitMin: 10
+    sideLimitMax: 50
+    distOfMeshes: 30
+  - listName: Cactus 15
+    FoliageName: 0
+    mesh: {fileID: 4300000, guid: 6b20709ad96aeee4e876180d8ddc4395, type: 3}
+    material: {fileID: 2100000, guid: 8093a22d87ca55242b463c5692dd3b83, type: 2}
+    YOffset: 0
+    SpawnStartZ: 26
+    scale: {x: 1, y: 1, z: 1}
+    Count: 20
+    sideLimitMin: 10
+    sideLimitMax: 50
+    distOfMeshes: 30
+  - listName: Cactus 16
+    FoliageName: 0
+    mesh: {fileID: 4300000, guid: 3acf15a9d1e36b84ca35b8f1787f9c6c, type: 3}
+    material: {fileID: 2100000, guid: 8093a22d87ca55242b463c5692dd3b83, type: 2}
+    YOffset: 0
+    SpawnStartZ: 28
+    scale: {x: 1, y: 1, z: 1}
+    Count: 20
+    sideLimitMin: 10
+    sideLimitMax: 50
+    distOfMeshes: 30
+  - listName: Cactus 17
+    FoliageName: 0
+    mesh: {fileID: 4300002, guid: 91ac6d83ec9f1d046a1276145fab1029, type: 3}
+    material: {fileID: 2100000, guid: 8093a22d87ca55242b463c5692dd3b83, type: 2}
+    YOffset: 0
+    SpawnStartZ: 30
+    scale: {x: 1, y: 1, z: 1}
+    Count: 20
+    sideLimitMin: 10
+    sideLimitMax: 50
+    distOfMeshes: 30
+  - listName: Cactus 18
+    FoliageName: 0
+    mesh: {fileID: 4300000, guid: 18fe8c3211a530742a4011f9075d11f1, type: 3}
+    material: {fileID: 2100000, guid: 8093a22d87ca55242b463c5692dd3b83, type: 2}
+    YOffset: 0
+    SpawnStartZ: 32
+    scale: {x: 1, y: 1, z: 1}
+    Count: 20
+    sideLimitMin: 10
+    sideLimitMax: 50
+    distOfMeshes: 30
+  FoliageName: 0
+  StartSpawn: 0
+--- !u!1 &6194646609501403303
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6194646609501403225}
+  - component: {fileID: 6194646609501403226}
+  m_Layer: 0
+  m_Name: GPU_Instance_Road
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &6194646609501403225
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6194646609501403303}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6194646608322421391}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6194646609501403226
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6194646609501403303}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5dd7aae532a686a4daa2bda226a7217a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: GPU Road
+  Count: 100
+  xPosition: 0
+  distanceOffset: 0
+  createCollider: 1
+  ColliderLength: 30
+  ObjectMesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+  ObjectScale: {x: 6, y: 0.2, z: 6}
+  ObjectMaterial: {fileID: 2100000, guid: 452af64a1419ced4db57f3230564d9fd, type: 2}
+  Vehicle: {fileID: 0}
+--- !u!1 &6194646609591876370
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6194646609591876371}
+  - component: {fileID: 6194646609591876372}
+  m_Layer: 0
+  m_Name: GPU_Instance_Side_Left
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &6194646609591876371
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6194646609591876370}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6194646608322421391}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6194646609591876372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6194646609591876370}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5dd7aae532a686a4daa2bda226a7217a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: GPU Side Lef
+  Count: 100
+  xPosition: -9
+  distanceOffset: 0
+  createCollider: 0
+  ColliderLength: 18
+  ObjectMesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+  ObjectScale: {x: 12, y: 0.2, z: 6}
+  ObjectMaterial: {fileID: 2100000, guid: 98e3d348c55e6a244b34dd502d9ed4cc, type: 2}
+  Vehicle: {fileID: 0}
+--- !u!1 &6194646609678058981
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6194646609678058982}
+  - component: {fileID: 6194646609678058983}
+  m_Layer: 0
+  m_Name: GPU_Instance_Side_Right
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &6194646609678058982
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6194646609678058981}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6194646608322421391}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6194646609678058983
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6194646609678058981}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5dd7aae532a686a4daa2bda226a7217a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: GPU Side Right
+  Count: 100
+  xPosition: 9
+  distanceOffset: 0
+  createCollider: 0
+  ColliderLength: 18
+  ObjectMesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+  ObjectScale: {x: 12, y: 0.2, z: 6}
+  ObjectMaterial: {fileID: 2100000, guid: 98e3d348c55e6a244b34dd502d9ed4cc, type: 2}
+  Vehicle: {fileID: 0}
+--- !u!1 &6194646610129722863
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6194646610129722848}
+  - component: {fileID: 6194646610129722849}
+  m_Layer: 0
+  m_Name: GPU_Instance_Rock
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &6194646610129722848
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6194646610129722863}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6194646608322421391}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6194646610129722849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6194646610129722863}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bff777a53438b974d95707f7a5f12c99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Vehicle: {fileID: 0}
+  RockTypes:
+  - listName: Cactus Area 1
+    RockName: 0
+    mesh: {fileID: 4300000, guid: 3da87bdf02677e84cb6b23c25571bb7c, type: 3}
+    material: {fileID: 2100000, guid: 8a72b7acc3ec49a488b71239b1753b9c, type: 2}
+    YOffset: 15
+    SpawnStartZ: 0
+    scale: {x: 30, y: 30, z: 30}
+    Count: 30
+    sideLimitMin: 60
+    sideLimitMax: 75
+    distOfMeshes: 90
+  - listName: Cactus Area 2
+    RockName: 0
+    mesh: {fileID: 4300000, guid: 6ea90cdca5fb72b43b11743597b141c9, type: 3}
+    material: {fileID: 2100000, guid: 8a72b7acc3ec49a488b71239b1753b9c, type: 2}
+    YOffset: 15
+    SpawnStartZ: 45
+    scale: {x: 85, y: 85, z: 85}
+    Count: 30
+    sideLimitMin: 60
+    sideLimitMax: 75
+    distOfMeshes: 90
+  RockName: 0
+  StartSpawn: 0
+--- !u!1 &6194646610250260693
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6194646610250260695}
+  - component: {fileID: 6194646610250260694}
+  m_Layer: 0
+  m_Name: GPU_Instance_BasketItem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6194646610250260695
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6194646610250260693}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6194646608322421391}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6194646610250260694
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6194646610250260693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bd6dda6dcf559f4c9c4a2ffbda38513, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BasketData:
+    Name: 
+    Item: 0
+    Mesh: {fileID: 0}
+    RBPrefab: {fileID: 0}
+    Icon: {fileID: 0}
+    MeshScale: {x: 0, y: 0, z: 0}
+    Materials: []
+    PositionTransforms: []

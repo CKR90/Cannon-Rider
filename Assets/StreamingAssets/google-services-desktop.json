@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "253257896843",
+    "firebase_url": "https://cannon-rider-6fb56-default-rtdb.firebaseio.com",
+    "project_id": "cannon-rider-6fb56",
+    "storage_bucket": "cannon-rider-6fb56.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:253257896843:android:bc993c2c545627a9f5558e",
+        "android_client_info": {
+          "package_name": "com.Blackened.CannonRider"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "253257896843-v4f7j3fstohtmq46vvlq1fchhbp9m96f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.Blackened.CannonRider",
+            "certificate_hash": "95067b6d03213fc61d5b03e83e3675ac2382c896"
+          }
+        },
+        {
+          "client_id": "253257896843-6br38kjgvi6tffd4jiccms9pi9k69s5p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAg_HUTBfQtVDfK9IO3B9m8bT8RhYEI8CA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "253257896843-6br38kjgvi6tffd4jiccms9pi9k69s5p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
